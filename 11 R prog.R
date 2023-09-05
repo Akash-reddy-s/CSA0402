@@ -1,0 +1,16 @@
+get_unique_chars<-function(input_string)
+  { 
+  unique_chars<-unique(strsplit(input_string,'')[[1]])
+  return(unique_chars)
+} 
+get_unique_numbers<-function(input_vector)
+{
+  unique_numbers<-unique(input_vector)
+  return(unique_numbers)
+}
+input_string<-"helllow"
+input_vector<-c(1,2,3,4,3,21,2,3,4,5)
+unique_chars<-get_unique_chars(input_string)
+print(unique_chars)
+unique_numbers<-get_unique_numbers(input_vector)
+print(unique_numbers)

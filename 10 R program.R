@@ -1,0 +1,5 @@
+x<-c(10,20,30,31)
+a<-max(x)
+b<-min(x)
+cat("MAXIMUM",a)
+cat("MINIMUM",b)
